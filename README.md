@@ -8,6 +8,16 @@ For applications, the part of the name of the desktop file (before the .desktop)
 
 Lines beginning with a number sign and blank lines are considered comments and will be ignored, however they should be preserved across reads and writes of the desktop entry file. Comment lines are uninterpreted and may contain any character _(except for LF)_. However, using _UTF-8_ for comment lines that contain characters not in ASCII is encouraged.
 
+### Entry keys
+
+* Entries in the file are key-value pairs in the format `Key=Value`.
+* Space before and after the equals sign should be ignored.
+* The equal sign is the actual delimiter.
+* Only the characters `A-Za-z0-9-` may be used in key names.
+* As the case is significant, the keys `Name` and `NAME` are not equivalent.
+* Multiple keys in the same group may not have the same name.
+* Keys in different groups may have the same name.
+
 ### Credits
 
 Description of the project and additional information comes from the [Desktop Entry Specification](http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) last updated at `01/Apr/2014`. All the credits go to the original authors.
