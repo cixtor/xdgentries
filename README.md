@@ -29,6 +29,30 @@ Lines beginning with a number sign and blank lines are considered comments and w
 
 Some keys can have multiple values. In such a case, the value of the key is specified as a plural: for example, string(s). The multiple values should be separated by a semicolon and the value of the key may be optionally terminated by a semicolon. Trailing empty strings must always be terminated with a semicolon. Semicolons in these values need to be escaped.
 
+### Example
+
+```
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Foo Viewer
+Comment=The best viewer for Foo objects available!
+TryExec=fooview
+Exec=fooview %F
+Icon=fooview
+MimeType=image/x-foo;
+Actions=Gallery;Create;
+
+[Desktop Action Gallery]
+Exec=fooview --gallery
+Name=Browse Gallery
+
+[Desktop Action Create]
+Exec=fooview --create-new
+Name=Create a new Foo!
+Icon=fooview-new
+```
+
 ### Credits
 
 Description of the project and additional information comes from the [Desktop Entry Specification](http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html) last updated at `01/Apr/2014`. All the credits go to the original authors.
