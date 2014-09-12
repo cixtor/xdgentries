@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Terminator
+Comment=Multiple terminals in one window
+TryExec=terminator
+Exec=/usr/share/terminator/terminator
+Icon=/opt/xdgentries/icons/terminator.png
+Categories=GTK;Utility;System;
+Website=https://launchpad.net/terminator
+StartupNotify=true
