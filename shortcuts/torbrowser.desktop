@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Tor Browser
+Comment=Anonymous internet browser around a distributed network of relays
+Exec=/opt/torbrowser/torbrowser
+Icon=/opt/xdgentries/icons/torbrowser.png
+Website=https://www.torproject.org/
+Categories=Network;
