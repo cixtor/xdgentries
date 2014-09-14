@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Aurora Web Browser
+Comment=Browse the World Wide Web
+Exec=/opt/aurora/aurora %U
+Icon=/opt/xdgentries/icons/aurora.png
+Terminal=false
+X-MultipleArgs=false
+Categories=Network;
+Website=https://www.mozilla.org/en-US/firefox/channel/
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;
