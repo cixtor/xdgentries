@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Breach Browser
+Comment=A browser for the HTML5 era entirely written in Javascript
+Exec=/opt/breach/breach
+Icon=/opt/xdgentries/icons/breach.png
+Website=http://breach.cc/
+Categories=Network;
