@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Google Chrome BETA
+Comment=Access the Internet
+Exec=/opt/google/chrome/google-chrome %U
+Icon=/opt/xdgentries/icons/google-chrome.png
+Categories=Network;
+Website=https://www.google.com/chrome/
+MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
