@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Google Chrome Incognito
+Comment=Access the internet in incognito mode
+Exec=/opt/google/chrome/google-chrome --incognito
+Icon=/opt/xdgentries/icons/incognito.png
+Categories=Network;
+Website=https://www.google.com/chrome/
+MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
