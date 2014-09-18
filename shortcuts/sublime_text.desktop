@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Sublime Text
+Comment=Sophisticated text editor for code, markup and prose
+Exec=/opt/sublimetext/sublime_text %F
+Icon=/opt/xdgentries/icons/sublime-text-circular.png
+StartupNotify=true
+Categories=Development;
+Website=http://www.sublimetext.com/
+MimeType=text/plain;
