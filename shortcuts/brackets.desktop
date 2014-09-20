@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Brackets
+Exec=/opt/brackets/brackets %U
+Icon=/opt/xdgentries/icons/brackets.png
+Categories=Development
+Website=http://brackets.io/
+MimeType=text/html;
