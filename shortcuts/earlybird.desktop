@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Mozilla Thunderbird (alpha)
+Comment=Read/Write Mail/News with Mozilla Thunderbird (alpha)
+Exec=/opt/earlybird/earlybird %U
+Icon=/opt/xdgentries/icons/earlybird.png
+Terminal=false
+X-MultipleArgs=false
+Categories=Network;
+Website=https://www.mozilla.org/en-US/thunderbird/channel/
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;
+StartupNotify=true
