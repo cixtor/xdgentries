@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=FileZilla
+Comment=Download and upload files via FTP, FTPS and SFTP
+Exec=/opt/filezilla/bin/filezilla
+Terminal=false
+Icon=/opt/xdgentries/icons/filezilla.png
+Categories=Development;
+Website=https://filezilla-project.org/
