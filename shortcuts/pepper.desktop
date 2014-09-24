@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Pepper SCM
+Comment=Repository statistics and report tool
+Exec=x-terminal-emulator -e pepper
+Icon=/opt/xdgentries/icons/pepper.png
+Website=http://scm-pepper.sourceforge.net/
+Categories=Development;
