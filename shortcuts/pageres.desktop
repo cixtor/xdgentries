@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PageRes
+Comment=Capture screenshots of websites in various resolutions
+Exec=x-terminal-emulator -e /opt/nodejs/lib/node_modules/pageres/cli.js --help
+Icon=/opt/xdgentries/icons/pageres.png
+Website=https://github.com/sindresorhus/pageres
+Categories=Development;
