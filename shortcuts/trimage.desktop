@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Trimage
+Comment=A cross-platform tool for losslessly optimizing PNG and JPG files
+Exec=/usr/bin/trimage
+Icon=/opt/xdgentries/icons/trimage.png
+Website=http://trimage.org/
+Categories=Graphics;
