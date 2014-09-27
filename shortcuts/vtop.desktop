@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=VTop
+Comment=Graphical activity monitor for the command line
+Exec=x-terminal-emulator -e /opt/nodejs/lib/node_modules/vtop/bin/vtop.js
+Icon=/opt/xdgentries/icons/vtop.png
+Website=https://github.com/MrRio/vtop
+Categories=Development;
