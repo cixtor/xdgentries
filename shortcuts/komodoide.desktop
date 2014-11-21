@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Komodo IDE
+Comment=Cross-Platform IDE for all your major languages.
+Exec=/opt/komodoide/lib/mozilla/komodo %F
+Icon=/opt/xdgentries/icons/komodoide.png
+Categories=Development;
+Website=http://komodoide.com/
+MimeType=text/plain;
