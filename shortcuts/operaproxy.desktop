@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Opera Developer (Proxy)
+Comment=Fast and secure web browser
+Exec=/opt/operadev/opera-developer --proxy-server="socks5://127.0.0.1:12345" %U
+Icon=/opt/xdgentries/icons/operadev.png
+Terminal=false
+Categories=Network;
+Website=http://www.opera.com/
+MimeType=text/html;text/xml;application/xhtml_xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
