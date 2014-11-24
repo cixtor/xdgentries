@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SmartGit/HG
+Comment=Git client with support for GitHub Pull Requests+Comments, SVN and Mercurial
+Exec=/opt/smartgit/bin/smartgit.sh %F
+Icon=/opt/xdgentries/icons/smartgit.png
+Categories=Development;
+Website=http://www.syntevo.com/smartgit/
+MimeType=text/plain;
