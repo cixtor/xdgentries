@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=HipChat Atlassian
+Comment=Group and 1:1 chat with audio, video, and screen sharing.
+Exec=/opt/hipchat/bin/hipchat
+Icon=/opt/xdgentries/icons/hipchat.png
+Terminal=false
+Categories=Network;
+Website=https://www.hipchat.com/
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;
