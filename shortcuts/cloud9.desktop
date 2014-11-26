@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Cloud9 IDE
+Comment=Open source IDE built with Node.JS
+Exec=/opt/cloud9/bin/cloud9.sh
+Icon=/opt/xdgentries/icons/cloud9.png
+StartupNotify=true
+Categories=Development;
+Website=https://github.com/ajaxorg/cloud9/
+MimeType=text/plain;
