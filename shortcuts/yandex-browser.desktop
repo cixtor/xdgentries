@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Yandex Browser
+Comment=Access the Internet
+Exec=/opt/yandex/yandex-browser-beta %U
+Icon=/opt/xdgentries/icons/yandex-browser.png
+Terminal=false
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
