@@ -2,7 +2,7 @@
 Type=Application
 Name=Atom
 Comment=A hackable text editor for the 21st century
-Exec=/opt/atom/atom %F
+Exec=/opt/atom/bin/atom %F
 Icon=/opt/xdgentries/icons/atom.png
 StartupNotify=true
 Categories=Development;
