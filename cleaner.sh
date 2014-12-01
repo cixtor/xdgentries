@@ -2,18 +2,10 @@
 apps_directory="/usr/share/applications/"
 app_shortcut="$1"
 
-if [[ -e "${apps_directory}" ]]; then
-    cd "${apps_directory}"
-    echo "[+] Removing NoDisplay attribute"
-    for shortcut in $(grep -rn 'NoDisplay=true' | cut -d ':' -f 1); do
-        echo "    ${shortcut}"
-        sed -i 's/NoDisplay=true//g' "${shortcut}"
-    done
-fi
-
 if [[ "${app_shortcut}" != "" ]]; then
     exclusion_pattern='^Comment\['
     exclusion_pattern+='|^Name\['
+    exclusion_pattern+='|^NoDisplay'
     exclusion_pattern+='|^$'
 
     echo "[+] Simplifying desktop shortcut: ${app_shortcut}"
@@ -28,5 +20,21 @@ if [[ "${app_shortcut}" != "" ]]; then
         echo -n "    " && mv -v "${temp_shortcut}" "${app_shortcut}"
     else
         echo "    App shortcut is already clean"
+        rm -f "${temp_shortcut}"
+    fi
+
+elif [[ -e "${apps_directory}" ]]; then
+    cd "${apps_directory}"
+    echo "[+] Removing NoDisplay attribute"
+    counter=0
+
+    for shortcut in $(grep -rn 'NoDisplay=true' | cut -d ':' -f 1); do
+        echo "    ${shortcut}"
+        sed -i 's/NoDisplay=true//g' "${shortcut}"
+        counter=$(( $counter + 1 ))
+    done
+
+    if [[ "${counter}" -eq 0 ]]; then
+        echo "    No hidden shortcuts were found"
     fi
 fi
