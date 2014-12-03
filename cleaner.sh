@@ -6,6 +6,7 @@ if [[ "${app_shortcut}" != "" ]]; then
     if [[ -e "${app_shortcut}" ]]; then
         exclusion_pattern='^Comment\['
         exclusion_pattern+='|^Name\['
+        exclusion_pattern+='|^GenericName\['
         exclusion_pattern+='|^NoDisplay'
         exclusion_pattern+='|^$'
 
