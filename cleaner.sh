@@ -9,6 +9,7 @@ if [[ "${app_shortcut}" != "" ]]; then
         exclusion_pattern+='|^GenericName\['
         exclusion_pattern+='|^NoDisplay'
         exclusion_pattern+='|^$'
+        exclusion_pattern+='|^X-GNOME-FullName\['
 
         echo "[+] Simplifying desktop shortcut: ${app_shortcut}"
         temp_shortcut="shortcut-$(date +%s).temp.txt"
