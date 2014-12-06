@@ -10,6 +10,7 @@ if [[ "${app_shortcut}" != "" ]]; then
         exclusion_pattern+='|^NoDisplay'
         exclusion_pattern+='|^$'
         exclusion_pattern+='|^X-GNOME-FullName\['
+        exclusion_pattern+='|^X-MATE-FullName\['
         exclusion_pattern+='|^Keywords\['
 
         echo "[+] Simplifying desktop shortcut: ${app_shortcut}"
